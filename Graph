@@ -1,0 +1,204 @@
+{
+    "nodes": [{
+        "name": "Perished"
+    }, {
+        "name": "Survived"
+    }, {
+        "name": "Male"
+    }, {
+        "name": "Female"
+    }, {
+        "name": "Adult"
+    }, {
+        "name": "Child"
+    }, {
+        "name": "Crew"
+    }, {
+        "name": "Third Class"
+    }, {
+        "name": "Second Class"
+    }, {
+        "name": "First Class"
+    }],
+    "links": [{
+        "source": 0,
+        "target": 2,
+        "names": ["Perished", "Male"],
+        "value": 1364
+    }, {
+        "source": 0,
+        "target": 3,
+        "names": ["Perished", "Female"],
+        "value": 126
+    }, {
+        "source": 1,
+        "target": 2,
+        "names": ["Survived", "Male"],
+        "value": 367
+    }, {
+        "source": 1,
+        "target": 3,
+        "names": ["Survived", "Female"],
+        "value": 344
+    }, {
+        "source": 2,
+        "target": 4,
+        "names": ["Perished", "Male", "Adult"],
+        "value": 1329
+    }, {
+        "source": 2,
+        "target": 5,
+        "names": ["Perished", "Male", "Child"],
+        "value": 35
+    }, {
+        "source": 3,
+        "target": 4,
+        "names": ["Perished", "Female", "Adult"],
+        "value": 109
+    }, {
+        "source": 3,
+        "target": 5,
+        "names": ["Perished", "Female", "Child"],
+        "value": 17
+    }, {
+        "source": 2,
+        "target": 4,
+        "names": ["Survived", "Male", "Adult"],
+        "value": 338
+    }, {
+        "source": 2,
+        "target": 5,
+        "names": ["Survived", "Male", "Child"],
+        "value": 29
+    }, {
+        "source": 3,
+        "target": 4,
+        "names": ["Survived", "Female", "Adult"],
+        "value": 316
+    }, {
+        "source": 3,
+        "target": 5,
+        "names": ["Survived", "Female", "Child"],
+        "value": 28
+    }, {
+        "source": 4,
+        "target": 6,
+        "names": ["Perished", "Male", "Adult", "Crew"],
+        "value": 670
+    }, {
+        "source": 4,
+        "target": 7,
+        "names": ["Perished", "Male", "Adult", "Third Class"],
+        "value": 387
+    }, {
+        "source": 4,
+        "target": 8,
+        "names": ["Perished", "Male", "Adult", "Second Class"],
+        "value": 154
+    }, {
+        "source": 4,
+        "target": 9,
+        "names": ["Perished", "Male", "Adult", "First Class"],
+        "value": 118
+    }, {
+        "source": 5,
+        "target": 7,
+        "names": ["Perished", "Male", "Child", "Third Class"],
+        "value": 35
+    }, {
+        "source": 4,
+        "target": 6,
+        "names": ["Perished", "Female", "Adult", "Crew"],
+        "value": 3
+    }, {
+        "source": 4,
+        "target": 7,
+        "names": ["Perished", "Female", "Adult", "Third Class"],
+        "value": 89
+    }, {
+        "source": 4,
+        "target": 8,
+        "names": ["Perished", "Female", "Adult", "Second Class"],
+        "value": 13
+    }, {
+        "source": 4,
+        "target": 9,
+        "names": ["Perished", "Female", "Adult", "First Class"],
+        "value": 4
+    }, {
+        "source": 5,
+        "target": 7,
+        "names": ["Perished", "Female", "Child", "Third Class"],
+        "value": 17
+    }, {
+        "source": 4,
+        "target": 6,
+        "names": ["Survived", "Male", "Adult", "Crew"],
+        "value": 192
+    }, {
+        "source": 4,
+        "target": 7,
+        "names": ["Survived", "Male", "Adult", "Third Class"],
+        "value": 75
+    }, {
+        "source": 4,
+        "target": 8,
+        "names": ["Survived", "Male", "Adult", "Second Class"],
+        "value": 14
+    }, {
+        "source": 4,
+        "target": 9,
+        "names": ["Survived", "Male", "Adult", "First Class"],
+        "value": 57
+    }, {
+        "source": 5,
+        "target": 7,
+        "names": ["Survived", "Male", "Child", "Third Class"],
+        "value": 13
+    }, {
+        "source": 5,
+        "target": 8,
+        "names": ["Survived", "Male", "Child", "Second Class"],
+        "value": 11
+    }, {
+        "source": 5,
+        "target": 9,
+        "names": ["Survived", "Male", "Child", "First Class"],
+        "value": 5
+    }, {
+        "source": 4,
+        "target": 6,
+        "names": ["Survived", "Female", "Adult", "Crew"],
+        "value": 20
+    }, {
+        "source": 4,
+        "target": 7,
+        "names": ["Survived", "Female", "Adult", "Third Class"],
+        "value": 76
+    }, {
+        "source": 4,
+        "target": 8,
+        "names": ["Survived", "Female", "Adult", "Second Class"],
+        "value": 80
+    }, {
+        "source": 4,
+        "target": 9,
+        "names": ["Survived", "Female", "Adult", "First Class"],
+        "value": 140
+    }, {
+        "source": 5,
+        "target": 7,
+        "names": ["Survived", "Female", "Child", "Third Class"],
+        "value": 14
+    }, {
+        "source": 5,
+        "target": 8,
+        "names": ["Survived", "Female", "Child", "Second Class"],
+        "value": 13
+    }, {
+        "source": 5,
+        "target": 9,
+        "names": ["Survived", "Female", "Child", "First Class"],
+        "value": 1
+    }]
+}
